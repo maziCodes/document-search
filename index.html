@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstarp css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<!-- Main css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<title>Search</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-light bg-faded">
+		<a class="navbar-brand" href="#">SEARCH</a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Work with Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact us</a>
+			</li>
+		</ul>
+		<form class="form-inline navbar-form pull-right">
+			<input class="form-control" type="text" placeholder="Search">
+			<button class="btn btn-success-outline" type="submit">Search</button>
+		</form>
+	</nav>
+
+
+	<div class="alert alert-info" role="alert">
+		<h1><p class="greetings"><strong class="">Hello!</strong> Search for your documents.</p></h1>
+		<h1 id="boss"></h1>
+	</div>
+
+	<section class="search-area">
+		<input type="text" name="search" class="search">
+		<select class="select-picker" data-style="btn-primary">
+			<option>Select File Type</option>
+			<option class"theExt">pdf</option>
+			<option class"theExt">docx</option>
+			<option class"theExt">png</option>
+			<option class"theExt">jpeg</option>
+		</select>
+		<ul class="match">
+			<li>Matching files</li>
+			<li>Matching extentions</li>
+		</ul>
+		
+	</section>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
